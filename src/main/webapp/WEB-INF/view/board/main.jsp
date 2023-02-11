@@ -8,9 +8,9 @@
                 <div class="card col-lg-3">
                     <img class="card-img-top" style="height: 250px;" src="images/profile.jpeg" alt="Card image">
                     <div class="card-body">
-                    <div>작성자 : ssar</div>
+                    <div>작성자 : ${dto.username}</div>
                         <h4 class="card-title my-text-ellipsis">제목입니다제목입니다제목입니다제목입니다제목입니다제목입니다</h4>
-                        <a href="/board/1" class="btn btn-primary">상세보기</a>
+                        <a href="/board/${dto.id}" class="btn btn-primary">상세보기</a>
                     </div>
                 </div>
             </c:forEach>
