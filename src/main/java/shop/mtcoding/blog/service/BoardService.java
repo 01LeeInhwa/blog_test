@@ -27,4 +27,7 @@ public class BoardService {
             throw new CustomException("글쓰기 실패", HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
+
+    public void 게시글삭제(int id) {
+    }
 }
